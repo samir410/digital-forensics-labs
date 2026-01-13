@@ -1,0 +1,55 @@
+# DIFO 2023 – Lab 2: Advanced Digital & Mobile Forensics
+
+This lab focuses on advanced forensic analysis involving Android devices, application artifacts, and disk-level investigations.
+
+---
+
+## 🎯 Objectives
+- Analyze Android file systems and partitions
+- Extract and interpret application data
+- Compare logical vs physical acquisition methods
+- Perform disk forensic analysis
+- Evaluate forensic soundness of acquisition methods
+
+---
+
+## 🛠️ Tools & Techniques
+- Android Debug Bridge (ADB)
+- SQLite database analysis
+- Sleuth Kit (mmls, fls)
+- Hash verification tools
+- ssdeep (fuzzy hashing)
+- Scalpel (file carving)
+- Timeline reconstruction
+
+---
+
+## 🔍 Key Tasks Performed
+- Identified Android app data locations
+- Extracted email and browser artifacts
+- Analyzed SQLite databases
+- Recovered credentials from system files
+- Performed disk partition analysis
+- Carved Master File Table (MFT) entries
+- Verified forensic integrity using hashes
+
+---
+
+## 📄 Report
+📎 **DIFO_2023_Lab-2_Forensic_Report.pdf**  
+Includes methodology, command outputs, findings, and conclusions.
+
+---
+
+## ⚠️ Forensic Considerations
+- Discussed limitations of ADB-based acquisition
+- Addressed evidence integrity and chain of custody
+- Evaluated forensic soundness of extraction methods
+
+---
+
+## 📚 Skills Gained
+- Mobile forensics fundamentals
+- Disk and filesystem forensics
+- Artifact correlation and timeline analysis
+- Professional forensic documentation
